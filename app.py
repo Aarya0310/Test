@@ -34,7 +34,7 @@ class calculator:
     def __init__(self):
         load_dotenv()
 
-        self.cap = cv2.VideoCapture(1)
+        self.cap = cv2.VideoCapture(2)
         self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, 950)
         self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 550)
         self.cap.set(cv2.CAP_PROP_BRIGHTNESS, 130)
